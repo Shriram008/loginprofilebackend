@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const INCRoutes = express.Router();
 const PORT = 4000;
 let INC = require('./LoginBean');
-//let Todo = require('./todo.model');
+//let Todo = require('./todo.model');{checking job}
 app.use(cors());
 app.use(bodyParser.json());
 mongoose.connect('mongodb+srv://admin:admin@ninjaprogram-xlxya.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true });
